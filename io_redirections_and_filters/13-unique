@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t | heah -n 10
+sort | uniq -u
