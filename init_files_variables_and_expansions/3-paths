@@ -1,1 +1,2 @@
-echo -e "#!/bin/bash\necho \$PATH | tr -s ':' '\n' | wc -l" > 3-paths
+#!/bin/bash
+for i in {a..z}; do for j in {a..z}; do [[ $i$j != "oo" ]] && echo $i$j; done; done
