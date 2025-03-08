@@ -1,0 +1,1 @@
+echo -e "#!/bin/bash\necho \$PATH | tr -s ':' '\n' | wc -l" > 3-paths
