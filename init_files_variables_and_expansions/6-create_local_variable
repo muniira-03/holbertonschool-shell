@@ -1,4 +1,2 @@
 #!/bin/bash
-# Creating a local variable named BEST with value School
 BEST="School"
-echo "The local variable BEST is set to: $BEST"
