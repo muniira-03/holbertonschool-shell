@@ -1,3 +1,2 @@
 #!/bin/bash
-# Convert the binary number in the BINARY environment variable to decimal and print it
 echo $((2#$BINARY))
